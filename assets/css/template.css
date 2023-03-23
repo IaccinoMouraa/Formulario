@@ -1,0 +1,13 @@
+body {
+    background-color: #b3aeae;
+}
+
+p {
+    font-size: 20px;
+}
+
+label {
+    font-family: Arial;
+    padding: 10px;
+    margin: 10px;
+}
