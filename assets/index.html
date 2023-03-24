@@ -9,43 +9,75 @@
 </head>
 <body>
     <div>
-        <h1>Cadastro</h1>
-        <p>Área de Cadastro</p>
-        <br/>
-    </div>
-    <form>
-        <label>Nome:</label> <br/>
-        <input type="text" name="nome" id="nome" />
-        <label>Sobrenome:</label>
-        <input type="text" name="sobrenome" id="sobrenome" />
-        <br/>
-        <label>E-mail</label>
-        <input type="email" name="e-mail" id="e-mail" />
-        <br/>
-        <label>Idade:</label>
-        <input type="date" name="idade" id="idade" />
-        <br/>
-    </form>
-         <div>
-             <h1>Endereço</h1>
-         </div>
-    <form>
-      <label>Rua:</label>
-      <input type="text" name="endereço" id="endereço" />
-      <label>Qd/Lt</label>
-      <input type="text" name="numero" id="numero" />
-      <br/>
-      <label>Cep:</label>
-      <input type="number" name="numero" id="numero" />
-      <br/>
-      <label>Cidade:</label>
-      <input type="text" name="cidade" id="cidade" />
-      <label>Uf</label>
-      <input type="text" name="estado" id="estado" />
-      <br/>
-      <input type="submit" value="Enviar" />
-    </form>
 
- 
+        <h1>Formúlario</h1>
+
+        <p>Área de Cadastro:</p>
+
+        <div class="header">
+    <form>
+        
+        <label class="nome">
+            Nome:
+            <input type="text" name="nome" /><br/>
+        </label>
+
+        <label class="sobrenome">
+            Sobrenome:
+            <input type="text" name="Sobrenome" /><br/>
+        </label>
+
+        <label class="data">
+            Idade:
+            <input type="date" name="data" /><br/>
+        </label>
+
+        <label class="email">
+            E-mail:
+            <input type="text" name="email" /><br/>
+        </label>
+    
+    </form>
+</div>
+<section>
+    <div class="header1">
+
+         <h2>Endereço</h2>
+         
+    <form>
+        <label class="rua">
+            Rua:
+            <input type="text" name="endereco" />
+            <label>
+                Qd/Lt:
+                <input type="text" name="qd/lt" />
+            </label>
+        </label><br/>
+
+        <label class="cep">
+            Cep:
+            <input type="number" name="numero" /><br/>
+        </label>
+
+        <label class="cidade">
+            Cidade:
+            <input type="text" name="cidade" />
+        <label>
+            Uf:
+            <select name="distritos">
+                <option></option>
+               <option>GO</option>
+               <option>DF</option>
+               <option>SP</option>
+               <option>RJ</option>
+            </select>
+        </label>
+        </label><br/>
+
+        <input type="submit" value="Fazer Cadastro" />
+          
+     </form>
+    </div>  
+</section>
 </body>
 </html>

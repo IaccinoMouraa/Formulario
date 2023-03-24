@@ -1,13 +1,58 @@
 body {
     background-color: #dbd5d5;
+    margin: 0px;
+    padding: 0px;
 }
 
 p {
-    font-size: 20px;
+    margin-left: 10px;
+}
+.header {
+    display: flex;
+    margin: 10px;
+} 
+
+h1 {
+    display: flex;
+    justify-content: center;
 }
 
-label {
-    font-family: Arial;
-    padding: 10px;
-    margin: 10px;
+.nome {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.sobrenome {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.data {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.email {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.header1 {
+    flex:1;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.rua {
+    display: flex;
+    margin-left: 5px;
+}
+
+.cep {
+    margin-left: 5px;
 }
